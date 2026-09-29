@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styke.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="/faviIcon/favicon_ver2.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="16x16" href="/faviIcon/202a1758d4af94d58e8cd517b3c1e95a.png">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Convergence&family=Lato:wght@300;400;700;900&family=Mukta:wght@300;400;600;700;800&family=Noto+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Vollkorn+SC:wght@400;600;700;900&display=swap"
+        rel="stylesheet">
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript">
+            (function(m,e,t,r,i,k,a){
+                m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+                m[i].l=1*new Date();
+                for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+                k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+            })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=105311858', 'ym');
+
+            ym(105311858, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", accurateTrackBounce:true, trackLinks:true});
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/105311858" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+    <title>ЭкоГород</title>
+</head>
+
+<body>
+    <header>
+        <div class="ecoLogo">
+            <img class="logo" src="./svg/202a1758d4af94d58e8cd517b3c1e95a.svg" width="4%" height="100%" alt="">
+            <a href="#" id="ecoButton">
+                <p id="EcocityP">Эко <br>Город</p>
+            </a>
+        </div>
+        <div>
+            <ul class="navBar">
+                <li><a href="#" class="serviceButton">Услуги</a></li>
+                <li><a href="#" class="pasButton">Преимущества</a></li>
+                <li><a href="#" class="portfolioButton">Портфолио</a></li>
+                <li><a href="#" class="contactButton">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="user">
+            <img src="./svg/people.svg" alt="">
+        </div>
+    </header>
+    <main>
+        <div class="AboutCompany">
+            <div class="mainInfo1">
+                <div class="textInfo">
+                    <h1 id="mainInfoH1">О нашей компании</h1>
+                    <p>Мы поможем избавиться от старой мебели, мусора, срубленных деревьев и проведём уборку участка.
+                        <br>Выполняем демонтажные работы в квартирах и домах.
+                        <br><span id="textSpanInfo">Наши принципы: <b>профессионализм</b>, <b>ответственность</b> и <b>индивидуальный
+                            подход</b>.<br>Наши услуги: <b>Вывоз мебели, демонтаж конструкций, вывоз мусора, спил деревьев и веток, уборка участков</b><br> Мы быстро и качественно решим вашу проблему, чтобы ваше пространство было
+                        чистым и аккуратным.</span><br>
+                    </p>
+                </div>
+                <div class="sliderBox">
+                    <div class="slides">
+                        <div class="slide"><img src="./portfolio/IMG-20251002-WA0019.jpg"></div>
+                        <div class="slide"><img src="./img/_a343bff7.jpg"></div>
+                        <div class="slide"><img src="./img/_e037eff3.jpg "></div>
+                    </div>
+                    <!-- Кнопки управления слайдером -->
+                    <button class="prev">&#10094;</button> <!-- Кнопка «Назад» -->
+                    <button class="next">&#10095;</button> <!-- Кнопка «Вперёд» -->
+                </div>
+            </div>
+
+            <div class="mainInfo2">
+                <a href="#" id="butCallText">
+                    <p class="callText">Звоните сегодня — машина приедет в течение 90 минут!</p>
+                </a>
+                <div id="hidenNumber">+79034892250</div>
+            </div>
+        </div>
+        <div class="gradientLineStart"></div>
+        <div class="services">
+            <div class="mainService">
+                <h2>Наши Услуги</h2>
+                <p>Выбирая нашу компанию, вы получаете профессиональную работу, индивидуальный подход и доступные
+                    цены. Мы используем современную технику,соблюдаем все экологические нормы и предлагаем широкий
+                    спектр услуг: </p>
+            </div>
+            <div class="boxService">
+                <!-- Вывоз старой мебели -->
+                <div class="boxServiceCards1">
+                    <div id="A" class="gridCards">
+                        <div class="hidenMainImg">
+                            <img src="./img/Вывоз мебели 2.jpg" alt="" class="mainImg">
+                            <img src="./png/Вывоз мебели 2.png" alt="" class="hiden">
+                        </div>
+                        <div id="card-infoIdA" class="cardInfoDesc">
+                            <h3>Вывоз старой мебели</h3>
+                            <p>Вывезем любую мебель и любых габаритов из квартир, домов,
+                                офисов и дач. Работаем с физическими и юридическими лицами,
+                                гарантируем бережное отношение к вашему имуществу.<br>
+                                Освободим ваше пространство от старой мебели быстро и аккуратно.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="B" class="gridCards">
+                        <div class="hidenMainImg">
+                            <img src="./img/Спил веток.jpg" alt="" class="mainImg">
+                            <img src="./png/Спил веток .png" alt="" class="hiden" id="hi3">
+                        </div>
+                        <div id="card-infoIdB" class="cardInfoDesc">
+                            <h3>Спил веток</h3>
+                            <p>Уберём мешающие ветки, сучья и листья.
+                                <br>Работаем аккуратно, сохраняем
+                                здоровье растений и красоту ландшафта. После работ вывезем все растительные
+                                остатки.<br> С нами ваш сад будет чистым, красивым и ухоженным.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="C" class="gridCards">
+                        <div class="hidenMainImg">
+                            <img src="./portfolio/IMG-20251002-WA0023.jpg" alt="" class="mainImg">
+                            <img src="./img/Спил деревьев.png" alt="" class="hiden" id="hi4">
+                        </div>
+                        <div id="card-infoIdС" class="cardInfoDesc">
+                            <h3>Спил деревьев</h3>
+                            <p>Спилим деревья любой сложности и размеров
+                                на участках и придомовых территориях. Работаем даже в труднодоступных местах.
+                                Аккуратно и безопасно удалим сухие, аварийные и мешающие деревья.
+                                Используем профессиональные пилы и снаряжение. После работы убираём всю территорию:
+                                вывезем стволы, ветки и мусор.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="boxServiceCards2">
+                    <div id="D" class="gridCards">
+                        <div class="hidenMainImg">
+                            <img src="./portfolio/IMG-20251002-WA0031.jpg" alt="" class="mainImg">
+                            <img src="./png/Уборка участов.png" alt="" class="hiden" id="hi5">
+                        </div>
+                        <div id="card-infoIdD" class="cardInfoDesc">
+                            <h3>Уборка участка</h3>
+                            <p>Комплексная расчистка территорий под строительство и благоустройство.
+                                Уборка и расчистка территорий от мусора, листвы,
+                                растительности и посторонних предметов. Подготовка
+                                участков под строительство и благоустройство, выравнивание поверхности
+                                спецтехникой.<br>Создадим идеальный порядок
+                                на вашей территории.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="E" class="gridCards">
+                        <div class="hidenMainImg">
+                            <img src="./portfolio/IMG-20251002-WA0065.jpg" alt="" class="mainImg">
+                            <img src="./png/Демонтажные работы (1).png" alt="" class="hiden">
+                        </div>
+                        <div id="card-infoIdE" class="cardInfoDesc">
+                            <h3>Демонтажные работы</h3>
+                            <p>Профессиональный демонтаж любых конструкций и строений.
+                                Снос старых построек, разборка перегородок, удаление
+                                ненужных элементов с последующим вывозом. Используем
+                                современное оборудование для безопасных и качественых работ.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="F" class="gridCards">
+                        <div class="hidenMainImg">
+                            <img src="./portfolio/IMG-20251002-WA0038.jpg" alt="" class="mainImg">
+                            <img src="./png/Вывоз мусора 1.png" alt="" class="hiden">
+                        </div>
+                        <div id="card-infoIdF" class="cardInfoDesc">
+                            <h3>Вывоз мусора</h3>
+                            <p>Избавим от любого типа мусора: бытового, строительного,
+                                крупногабаритного. Работаем с любыми
+                                объемами оперативно и профессионально.
+                                Соблюдаем экологические нормы и обеспечиваем правильную утилизацию
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="gradientLineEnd" id="grdewh"></div>
+        <div class="whyWe">
+            <h1 id="whyWeH1">Почему мы?</h1>
+            <div class="serviceBlock">
+                <div class="advantages">
+                    <img src="img/numberOne.png" alt="" width="4.7%">
+                    <div id="as1">
+                        <h1>Профессионализм</h1>
+                        <p>Наши специалисты обладают большим опытом и знаниями,<br> для решения задач любой
+                            сложности.<br> Мы
+                            предоставляем выезд специалиста для консультации<br> и точной оценки объема работ</p>
+                    </div>
+                </div>
+                <div class="advantages" id="advantagesAs2">
+                    <div id="as2">
+                        <h1>Ответственность</h1>
+                        <p>Ваше спокойствие — наш приоритет<br> Мы несем полную ответственность за сохранность вашего
+                            имущества<br> и строго соблюдаем технику безопасности на объекте</p>
+                    </div>
+                    <img src="img/numberTwo.png" alt="" width="8.5%">
+                </div>
+                <div class="advantages">
+                    <img src="img/numberThree.png" alt="" width="8.5%">
+                    <div id="as3">
+                        <h1>Современное /// оборудование</h1>
+                        <p>Мы используем новейшую технику и оборудование,<br> что позволяет выполнять работы быстро,
+                            качественно и аккуратно,<br> добиваясь лучшего результата</p>
+                    </div>
+                </div>
+                <div class="advantages" id="advantagesAs4">
+                    <div id="as4">
+                        <h1>Выгодные /// цены</h1>
+                        <p>Мы предлагаем честные и выгодные цены, принимаем все виды оплат <br>Создаём удобные условия
+                            для частных лиц и организаций<br>Предоставляем полный пакет документов для юридических лиц
+                            <br>Адаптируемся под ваши потребности
+                        </p>
+                    </div>
+                    <img src="img/numberFour.png" alt="" width="9.8%">
+                </div>
+
+            </div>
+        </div>
+        <div class="gradientLineStart"></div>
+        <div class="portfolio">
+            <h1>Портфолио</h1>
+            <div class="container">
+
+            </div>
+            <button class="moreButton" onclick="checkMoreButton()">Ещё</button>
+
+        </div>
+        <div class="gradientLineEnd" id="rlefot"></div>
+        <div class="contacts">
+            <div class="contactUs">
+                <h2>Контакты</h2>
+                <P id="contactUsP">Можете с нами связаться </P>
+                <div class="contasyUsInfo">
+                    <div id="hidenNumber" class="hiden">+79034892250</div>
+                    <div class="contasyUsIcons">
+                        <a href="https://t.me/+79034892250" target="_blank"><img
+                                src="./png/2644993_media_messenger_social_telegram_icon.png" alt=""></a>
+                        <a href="https://wa.me/79034892250?text=Здравствуйте!" target="_blank"><img
+                                src="./png/9034991_logo_whatsapp_icon.png" alt=""></a>
+                        <a href="mailto:alex-crazy.popruga@yandex.ru" target="_blank"><img id="contImg1" width="19%"
+                                src="./png/email-svgrepo-com (1).png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <h1>Или оставьте заяку </h1>
+                <div class="form">
+                    <input type="text" id="trackName" class="form_input" autocomplete="off" placeholder="">
+                    <label for="trackName" class="form_label">Имя</label>
+                </div>
+                <div class="form">
+                    <input type="text" id="trackName2" class="form_input" autocomplete="off" placeholder="">
+                    <label for="trackName" class="form_label">Телефон</label>
+                </div>
+                <div class="form">
+                    <input type="text" id="trackName3" class="form_input" autocomplete="off" placeholder="">
+                    <label for="trackName" class="form_label">Комментарий</label>
+                </div>
+                <button class="moreButton" id="buttonSendForm">Отправить</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="leftBlock">
+            <div class="imgFoot">
+                <img src="./png/202a1758d4af94d58e8cd517b3c1e95a (1).png" alt="">
+            </div>
+            <p id="EcocityF">Эко<br>Город</p>
+            <div class="menuFooter">
+                <div class="navigationFooteer">
+                    <ul id="navBarFooter">
+                        <li><a href="#" class="serviceButton">Услуги</a></li>
+                        <li><a href="#" class="pasButton">Преимущества</a></li>
+                        <li><a href="#" class="portfolioButton">Портфолио</a></li>
+                        <li><a href="#" class="contactButton">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="rights">
+                    <p>&copy; 2025 All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+        <div class="rightBlock">
+            <div class="socialIconsFooter">
+                <ul class="ulNavFooter">
+                    <li>
+                        <a href="https://wa.me/79034892250?text=Здравствуйте!" target="_blank">
+                            <img class="invertColor" width="25pvh" src="./png/9034991_logo_whatsapp_icon.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://t.me/+79034892250" target="_blank">
+                            <img class="invertColor" width="25pvh"
+                                src="/png/2644993_media_messenger_social_telegram_icon.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p class="support">alex-crazy.popruga@yandex.ru</p>
+            <p class="support">Ростов-на-Дону, проспект Ленина, 90/1</p>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
